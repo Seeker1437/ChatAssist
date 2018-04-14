@@ -1,10 +1,10 @@
-.landing .logo {
+.landing .logo, .chat .logo {
      background:url(../images/logo.png) center no-repeat;
      height:94px;
 }
 
-.landing.container {width:100%; padding:0;}
-.landing .row {margin:0;}
+.landing.container, .chat.container {width:100%; padding:0;}
+.landing .row, .chat .row {margin:0;}
 .landing-page-row {
      padding:25px 0;
      border-top:1px solid #ccc;
