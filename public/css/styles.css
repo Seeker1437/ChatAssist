@@ -35,6 +35,9 @@
 
 .chat a.back-btn i {margin-right:5px;}
 
+h3.text-muted {display:none;}
+.chat .nav {display:none;}
+
 @media screen and (max-width:600px){
      .chat .logo {background:url(../images/logo.png) right no-repeat;}
 }
