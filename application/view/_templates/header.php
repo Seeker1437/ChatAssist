@@ -51,7 +51,6 @@
                 background-color: #f77;
             }
         </style>
-
     <?php } ?>
     <link href="<?php echo Config::get('URL'); ?>public/css/styles.css" rel="stylesheet">
     <link href="<?php echo Config::get('URL'); ?>public/css/bootstrap.min.css" rel="stylesheet">
