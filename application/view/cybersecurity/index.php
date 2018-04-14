@@ -13,7 +13,7 @@
                 <p id="signupErrorText">Well this is embarrassing. It looks like we're having trouble getting you on the list.</p>
             </div>
 
-            <div id="conversation" style="width: 400px; height: 400px; border: 1px solid #ccc; background-color: #eee; padding: 4px; overflow: scroll"></div>
+            <div id="conversation" style="height: 400px; border: 1px solid #ccc; background-color: #eee; padding: 4px; overflow: scroll"></div>
             <form id="chatform" style="margin-top: 10px" onsubmit="return pushChat();">
                 <input type="text" id="wisdom" size="80" value="" placeholder="check my data">
             </form>

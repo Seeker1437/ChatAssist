@@ -25,7 +25,7 @@
                 min-width: 50%;
                 max-width: 85%;
                 float: left;
-                background-color: #7d7;
+                background-color:#65bbf7;
             }
 
             p.lexResponse {
@@ -36,8 +36,9 @@
                 min-width: 50%;
                 max-width: 85%;
                 float: right;
-                background-color: #bbf;
+                background-color: #142933;
                 font-style: italic;
+                color:white;
             }
 
             p.lexError {

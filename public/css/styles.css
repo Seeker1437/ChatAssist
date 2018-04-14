@@ -4,6 +4,7 @@
 }
 
 .landing.container, .chat.container {width:100%; padding:0;}
+.chat.container .container {width:100%;}
 .landing .row, .chat .row {margin:0;}
 .landing-page-row {
      padding:25px 0;
@@ -34,6 +35,7 @@
 }
 
 .chat a.back-btn i {margin-right:5px;}
+#chatform input {width:100%; text-transform:capitalize;}
 
 h3.text-muted {display:none;}
 .chat .nav {display:none;}
