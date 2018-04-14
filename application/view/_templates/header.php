@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ChatAssist</title>
     <link href="<?php echo Config::get('URL'); ?>public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo Config::get('URL'); ?>public/fonts/font-awesome.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="<?php echo Config::get('URL'); ?>public/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
