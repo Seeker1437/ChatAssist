@@ -20,18 +20,18 @@ Take Into Consideration
 	Likelihood of slow internet connection
 
 
-•	Tasks
-	o	Create Github for work
-	o	Platform takes form of website
-	o	Platform is integrated with Chatbot API
-	o	API platform is setup to accept modules
-	o	Platform accepts commands
-	o	Platform is connected to AWS
-	o	Platform has a method to determine which commands it is looking for
-	o	Platform is connected to Alexa Ask API
-	o	Platform has a UI
-	o	Platform has an expected workflow the user is able to go through
-•	Future/Next
-	o	Integration to Facebook API
-	o	Integration to Geolocation
-	o	LORA/Bluetooth Radio Communication
+Tasks
+	Create Github for work
+	Platform takes form of website
+	Platform is integrated with Chatbot API
+	API platform is setup to accept modules
+	Platform accepts commands
+	Platform is connected to AWS
+	Platform has a method to determine which commands it is looking for
+	Platform is connected to Alexa Ask API
+	Platform has a UI
+	Platform has an expected workflow the user is able to go through
+Future/Next
+	Integration to Facebook API
+	Integration to Geolocation
+	LORA/Bluetooth Radio Communication
