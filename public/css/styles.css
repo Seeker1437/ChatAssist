@@ -3,7 +3,7 @@
      height:94px;
 }
 
-.landing .container {width:100%; padding:0;}
+.landing.container {width:100%; padding:0;}
 .landing .row {margin:0;}
 .landing-page-row {
      padding:25px 0;
@@ -18,8 +18,8 @@
 }
 
 .landing-page-row i:last-child {
-     float:left;
-     font-size:30px;
+     float:right;
+     font-size:40px;
      margin-right:15px;
      margin-top:-10px;
 }
