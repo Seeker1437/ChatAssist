@@ -34,3 +34,7 @@
 }
 
 .chat a.back-btn i {margin-right:5px;}
+
+@media screen and (max-width:600px){
+     .landing .logo, .chat .logo {background:url(../images/logo.png) right no-repeat;}
+}
