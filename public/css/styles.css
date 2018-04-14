@@ -23,3 +23,14 @@
      margin-right:15px;
      margin-top:-10px;
 }
+
+.chat a.back-btn {
+     position:absolute;
+     left:16px;
+     top:25px;
+     padding:6px 10px;
+     border:1px solid black;
+     border-radius:4px;
+}
+
+.chat a.back-btn i {margin-right:5px;}
