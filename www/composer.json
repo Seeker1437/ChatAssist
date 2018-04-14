@@ -1,0 +1,41 @@
+{
+  "name": "philadevfest2018/chatassist",
+  "type": "project",
+  "description": "Website used Philadelphia DevFest 2018 project: ChatAssist.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Darnell Williams",
+      "email": "williams.darnell56@yahoo.com"
+    },
+    {
+      "name": "Shaw Levin"
+    },
+    {
+      "name": "Quentin Gipson"
+    },
+    {
+      "name": "Zachary Levine"
+    },
+    {
+      "name": "Jeff Ginsburg"
+    },
+    {
+      "name": "Aisha Ali-Ahmad"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "v5.2.16",
+    "piwik/device-detector": "3.7.0",
+    "facebook/graph-sdk": "5.4.2",
+    "square/connect": "2.0.2",
+    "google/recaptcha": "1.1.3",
+    "mpdf/mpdf": "^6.1",
+    "lcobucci/jwt": "3.2.1",
+    "league/oauth2-server": "5.1.3"
+  },
+  "autoload": {
+    "psr-4": { "": ["application/core/", "application/model/"] }
+  }
+}
