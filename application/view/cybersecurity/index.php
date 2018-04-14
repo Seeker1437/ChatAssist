@@ -3,21 +3,6 @@
           <div class="col-md-12 logo"></div>
           <a class="back-btn" href="<?php echo Config::get('URL'); ?>"><i class="fa fa-angle-left"></i>Back</a>
         <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li><a href="#">Home</a></li>
-                    <li class="active"><a href="#data">Data Privacy</a></li>
-                    <li><a href="#">Cybersecurity</a></li>
-                    <li><a href="#">Dev Setup</a></li>
-                    <li><a href="#">Vendors</a></li>
-                </ul>
-                <h3 class="text-muted">ChatAssist</h3>
-            </div>
-            <% if (flask_debug === 'true') { %>
-            <div class="alert alert-danger">
-                Flask is in debug mode. This is not safe for production!
-            </div>
-            <% } %>
             <div id="signupSuccess" class="alert alert-success" style="display:none">
                 <p id="signupSuccessText">Thanks for signing up! You'll be among the first to know when we launch.</p>
             </div>
