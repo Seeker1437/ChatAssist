@@ -72,3 +72,14 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
+<div id="ms-preload" class="ms-preload">
+    <div id="status">
+        <div class="preloader-img-div">
+            <img class="preloader-image" src="<?php echo Config::get("URL"); ?>public/images/logo.png" alt="ChatAssist Logo">
+        </div>
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
