@@ -2,8 +2,9 @@
 
 https://join.slack.com/t/chatassist/shared_invite/enQtMzQ3ODgxNzI1ODc4LTgwNWNmMDdmODc3ZTU1NGZmMjZhYTNjODE2YjE3MWE0OGQwNWRhOTkyYjQzNzczZTZjYjVmMTVmOTVkN2EyOTI
 
-A bot for assisting with disaster relief eith support from higher class facilities like Alexa, Google Assistant, and Siri
-[Test Link](http://chatassist.mabiavalon.com)
+A bot for assisting with disaster relief with support from higher class facilities like Alexa, Google Assistant, and Siri
+
+[ChatAssist Website](http://chatassist.mabiavalon.com)
 
 <h1>Requirements</h1>
 <ul>
