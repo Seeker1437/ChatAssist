@@ -15,12 +15,15 @@
                 // Initialize the Amazon Cognito credentials provider
                 AWS.config.region = 'us-east-1'; // Region
                 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-                    // Provide your Pool Id here
                     IdentityPoolId: 'us-east-1:c8a1f052-7be7-4e3b-a7d3-9ac951ff6a3b',
                 });
 
+                AWS.config.credentials.get(function(err) {
+                    if (err) console.log(err);
+                });
+
                 var lexruntime = new AWS.LexRuntime();
-                var lexUserId = 'chatbot-demo' + Date.now();
+                var lexUserId = 'botdemo' + Date.now();
                 var sessionAttributes = {};
 
                 function pushChat() {
@@ -36,7 +39,7 @@
 
                         // send it to the Lex runtime
                         var params = {
-                            botAlias: '1',
+                            botAlias: 'VendorOnboarcdingChatBot',
                             botName: 'VendorOnboarding',
                             inputText: wisdom,
                             userId: lexUserId,
