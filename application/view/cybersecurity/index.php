@@ -1,3 +1,11 @@
+<div id="ms-preload" class="ms-preload">
+    <div id="status">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
 <div class="container chat">
     <div class="row">
           <div class="col-md-12 logo"></div>
