@@ -17010,7 +17010,6 @@ var _self = "undefined" != typeof window ? window : "undefined" != typeof Worker
         this.disableKeyboardNav(), t(window).off("resize", this.sizeOverlay), this.$lightbox.fadeOut(this.options.fadeDuration), this.$overlay.fadeOut(this.options.fadeDuration), t("select, object, embed").css({visibility: "visible"}), this.options.disableScrolling && t("body").removeClass("lb-disable-scrolling")
     }, new e
 });
-
 $(function () {
     (new WOW).init();
     $("#ms-preload").delay(350).fadeOut("slow");
