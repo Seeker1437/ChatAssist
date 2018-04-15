@@ -1,9 +1,12 @@
 <?php
-
 /**
- * This controller shows an area that's only visible for logged in users (because of Auth::checkAuthentication(); in line 16)
+ * Created by PhpStorm.
+ * User: Darnell
+ * Date: 4/15/2018
+ * Time: 8:27 AM
  */
-class LandingController extends Controller
+
+class VendorController extends Controller
 {
     /**
      * Construct this object by extending the basic Controller class
@@ -18,6 +21,6 @@ class LandingController extends Controller
      */
     public function index()
     {
-        $this->View->render('landing/index');
+        $this->View->render('vendoronboarding/index');
     }
 }
