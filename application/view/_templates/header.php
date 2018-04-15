@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="og:description" content="A platform aimed at providing reliable and highly available chat bot experience for many area using the new Amazon Lex service.">
+    <meta name="og:title" content="ChatAssist">
+    <meta name="og:type" content="object">
+    <meta name="og:image" content="<?php echo Config::get("URL");?>public/images/logo.png">
+    <meta name="og:url" content="<?php echo Config::get("URL");?>">
     <title>ChatAssist</title>
     <?php if ($this->checkForActiveControllerAndAction($filename, "cybersecurity/index")) { ?>
         <style language="text/css">
