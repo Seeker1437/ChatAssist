@@ -4,6 +4,8 @@
         <script src="<?php echo Config::get('URL'); ?>public/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="<?php echo Config::get('URL'); ?>public/js/ie10-viewport-bug-workaround.js"></script>
+        <!-- Custom App Code -->
+        <script src="<?php echo Config::get('URL'); ?>public/js/app.js"></script>
         <?php if ($this->checkForActiveControllerAndAction($filename, "cybersecurity/index")) { ?>
             <script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
             <script type="text/javascript">
