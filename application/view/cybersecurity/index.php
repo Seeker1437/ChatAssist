@@ -51,7 +51,6 @@
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
             </div><!-- /.modal -->
-
         </div> <!-- /container -->
     </div>
 </div>

@@ -31,7 +31,7 @@
 
                         // disable input to show we're sending it
                         var wisdom = wisdomText.value.trim();
-                        wisdomText.value = '...';
+                        wisdomText.value = ' . . . ';
                         wisdomText.locked = true;
 
                         // send it to the Lex runtime
